@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh toan</title>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/thanhtoan.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../html/trangchu.html">
+          <img
+            src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
+            alt=""
+            class="logo"
+          />
+        </a>
+        <a href="">HOME</a>
+        <a href="">STORE</a>
+        <a href="">COMMUNITY</a>
+        <a href="">SUPPORT</a>
+        <a href="">ABOUT US</a>
+        <a href="../html/dangnhap.html">LOGIN</a>
+      </nav>
+    </header>
+    <main>
+      <div class="row">
+        <div class="column">
+          <form class="form2" action="#" method="post" name="thanh-toan">
+            <div>
+                <label for="">Email</label>
+                <input class="form-control" type="email" name="email" placeholder="example@gmail.com">
+            </div>
+            <div>
+              <label for="Address">Adress</label>
+              <input class="form-control" type="text" name="Address" placeholder="192, " />
+            </div>
+            <div>
+              <label for="Phone-number">Phone Number</label>
+              <input class="form-control"
+                type="tel"
+                name="Phone-number"
+                placeholder="+84 Phone Number"
+              />
+            </div>
+            <div>
+                <label for="Date">Order Date</label>
+              <input class="form-control" type="date" name="Date" placeholder="Time delivery" />
+            </div>
+            <div>
+                <label for="">*Note</label>
+                <textarea name="note" id="note" cols="30" rows="10">Tell your note</textarea>
+            </div>
+          </form>
+        </div>
+        <div class="column">
+            <p>TOTAL BILL:$258.99</p>
+            <div> <a class="button" href="../html/ttthanhcong.html">Pay Now</a></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

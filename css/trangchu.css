@@ -1,0 +1,138 @@
+.logo {
+  height: 50px;
+}
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+}
+main {
+  margin-top: 100px;
+}
+h3 {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-color: #0d2646;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#discount .header-title a {
+  text-transform: capitalize;
+  font-weight: 500px;
+}
+h2 {
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 10;
+}
+.discount-weekend {
+  display: inline-block;
+  background-color: green;
+  color: greenyellow;
+  line-height: 10px;
+  padding: 0px 5px 0px 5px;
+  font-size: 20px;
+  border-radius: 0 0 2px 20px;
+}
+.product-items {
+    display: inline-block;
+  background-color: #2a475e;
+  border-radius: 4px 8px 16px 20px;
+  margin-bottom: 20px;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    position: relative;
+}
+.product-list .product-items{
+    margin-left: 30px;
+}
+img {
+    border-radius: 4px 8px;
+    width: 100%;
+    height: 150px
+    
+}
+.discount-product {
+    display: flex;
+    margin: 0px 0px 10px 10px
+}
+.original-price {
+    text-decoration: line-through;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: white;
+    font-size: 11px;
+} 
+.final-price {
+    color:cyan;
+    font-size: 13px;
+    ;
+}
+.discount-price {
+    background-color:black ;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 4px 10px 4px 7px;
+    border-radius:0px 0px 16px 0px ;
+}
+.info {
+    margin: 0px 0px 0px 10px;
+}
+.search {
+  background-color: #2a475e;
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+  align-items: center;
+  padding: 5px;
+}
+.price {
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.side-bar {
+  width: 30%;
+}
+.side-content {
+  width: 70%;
+}
+.side-bar ul {
+  padding-left: 0;
+}
+.side-bar ul li {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 8px;
+  /* đây là để người dùng biết có thể click đc */
+  cursor: pointer;
+}
+.side-bar ul li:hover {
+  color: orangered;
+  text-decoration: underline;
+}

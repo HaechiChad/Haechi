@@ -1,0 +1,29 @@
+main {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+table {
+  color: white;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #1b2838;
+}
+.image-preview {
+    width: 200px;
+    height: 100px;
+}
+.button {
+    text-align: right;
+}
+p {
+  color: white;
+}
